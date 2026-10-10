@@ -27,5 +27,5 @@ Asumo que las preguntas en Markdown son identificadas al inicio por `##` o `núm
 
 Uso:
 
-    $ md2aiken test.md test.txt
-    $ aiken2md test.txt test.md
+    $ ./md2aiken.py test.md test.txt
+    $ ./aiken2md.py test.txt test.md
