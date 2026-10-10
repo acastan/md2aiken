@@ -1,4 +1,4 @@
-# md2aiken
+# de test Markdown a test Aiken
 
 Programa sencillo para convertir tests en formato Markdown a tests en formato Aiken
 
