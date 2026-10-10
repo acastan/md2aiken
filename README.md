@@ -17,7 +17,7 @@ Y este es un ejemplo del mismo test en Aiken:
 > A) 2  
 > B) 4  
 > C) 32  
-> ANSWER: C
+> ANSWER: B
 
 Este es un sencillo programa para convertir de un formato al otro. Lo comparto, por si os puede servir, aunque en esta era de IAs y LLMs podéis generar vuestro propio programa al instante. En este código pretendo priorizar la sencillez a la elegancia y versatilidad. No utilizo clases ni expresiones regulares. No cubro el [formato GIFT](https://docs.moodle.org/500/en/GIFT_format), mucho más potente.
 
