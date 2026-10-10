@@ -6,18 +6,18 @@ Mi lenguaje preferido para edición de textos es [Markdown](https://docs.github.
 
 Este es un ejemplo de test en Markdown:
 
-> 01. ¿Cuantos bytes tiene una dirección de IP versión 4?
->     - [ ]  2
->     - [x]  4
->     - [ ]  32
+    01. ¿Cuantos bytes tiene una dirección de IP versión 4?
+        - [ ]  2
+        - [x]  4
+        - [ ]  32
 
 Y este es un ejemplo del mismo test en Aiken:
 
-> ¿Cuantos bytes tiene una dirección de IP versión 4?  
-> A) 2  
-> B) 4  
-> C) 32  
-> ANSWER: B
+    ¿Cuantos bytes tiene una dirección de IP versión 4?
+    A) 2
+    B) 4
+    C) 32
+    ANSWER: B
 
 Este es un sencillo programa para convertir de un formato al otro. Lo comparto, por si os puede servir, aunque en esta era de IAs y LLMs podéis generar vuestro propio programa al instante. En este código pretendo priorizar la sencillez a la elegancia y versatilidad. No utilizo clases ni expresiones regulares. No cubro el [formato GIFT](https://docs.moodle.org/500/en/GIFT_format), mucho más potente.
 
