@@ -1,4 +1,4 @@
-# de test Markdown a test Aiken
+# Covertir entre test Markdown y test Aiken
 
 Programa sencillo para convertir tests en formato Markdown a tests en formato Aiken
 
