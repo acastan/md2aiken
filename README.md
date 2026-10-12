@@ -11,6 +11,16 @@ Este es un ejemplo de test en Markdown:
         - [ ]  32
 ```
 
+Este es el mismo ejemplo de test en Markdown, que marca la pregunta con `##` y añade una línea entre pregunta y respuestas:
+
+```
+    ## ¿Cuantos bytes tiene una dirección de IP versión 4?
+
+        - [ ]  2
+        - [x]  4
+        - [ ]  32
+```
+
 Y este es un ejemplo del mismo test en Aiken:
 
 ```
@@ -21,11 +31,10 @@ Y este es un ejemplo del mismo test en Aiken:
     ANSWER: B
 ```
 
-Comparto un sencillo programa para convertir de un formato al otro. En este código priorizo la sencillez sobre la elegancia o la versatilidad. No utilizo clases ni expresiones regulares, ni cubro el [formato GIFT](https://docs.moodle.org/500/en/GIFT_format), mucho más potente.
+Comparto un sencillo programa para convertir de un formato al otro. En este código priorizo la sencillez sobre la versatilidad. No utilizo clases ni expresiones regulares, ni cubro el [formato GIFT](https://docs.moodle.org/500/en/GIFT_format), mucho más potente.
 
-Asumo que las preguntas en Markdown son identificadas al inicio por `##` o `número.` , que la pregunta ocupa una línea, que pueden haber líneas en blanco entre preguntas y respuestas, y varias líneas en blanco entre preguntas, y que las respuestas son identificadas al inicio por `- [ ]` o por `- [x]`
+Asumo que las preguntas en Markdown son identificadas al inicio por `##` o `número.` , que la pregunta ocupa una línea, que puede haber o no haber una línea en blanco entre la pregunta y las respuestas, que las respuestas son identificadas al inicio por `- [ ]` o por `- [x]`, y que puede haber varias líneas en blanco separando preguntas, 
 
 Uso:
 
     $ ./md2aiken.py test.md test.txt
-    $ ./aiken2md.py test.txt test.md
