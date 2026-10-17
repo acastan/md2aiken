@@ -1,6 +1,6 @@
 # Covertir entre test Markdown y test Aiken
 
-Mi formato preferido para edición de documentos es [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Con él edito apuntes, ejercicios, tests, etc. Algunos de los tests que publico en Markdown me interesa importarlos después a Moodle en [formato Aiken](https://docs.moodle.org/500/en/Aiken_format).
+Mi formato preferido para edición de documentos es [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). En dicho formato edito apuntes, ejercicios, tests, etc. Algunos de los tests que publico en Markdown me interesa importarlos después a Moodle en [formato Aiken](https://docs.moodle.org/500/en/Aiken_format).
 
 Este es un ejemplo de test en Markdown:
 
